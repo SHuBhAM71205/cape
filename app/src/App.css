@@ -95,3 +95,13 @@ li{
   min-width : 30vh;
   min-height: 30vh;
 }
+
+.img{
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.text{
+  max-width: 35vw;
+  text-wrap: wrap;
+}
