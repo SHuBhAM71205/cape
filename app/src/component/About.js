@@ -1,4 +1,4 @@
-import image1 from './Screenshot (68).png';
+import image1 from './logo.jpg';
 
 export default function About(){
     return(
@@ -12,7 +12,7 @@ export default function About(){
                         </article>
                     </p>
                 </div>
-                <div className="img"><img scr={image1}/></div>
+                <div className="img"><img scr={image1} alt="img not found"/></div>
             </div>
         </>
     );

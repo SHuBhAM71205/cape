@@ -1,5 +1,7 @@
 *{
- border: 1px solid black; 
+  margin: 1px;
+  padding: 2px;
+  /* border: 1px solid black;  */
 }
 
 body{
@@ -98,10 +100,27 @@ li{
 
 .img{
   min-height: 40vh;
-  min-width: 40vw;
+  min-width: 23vw;
 }
 
 .text{
   max-width: 35vw;
   text-wrap: wrap;
+}
+
+.Footer_Nav{
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+ul.fnav{
+  min-width: 13vw;
+  flex-direction: column;
+
+}
+
+li{
+  list-style-position: inside;
+  list-style:circle;
 }
