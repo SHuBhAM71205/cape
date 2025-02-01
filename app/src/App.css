@@ -1,11 +1,21 @@
 *{
-  margin: 1px;
-  padding: 2px;
+  margin: 0px;
+  padding: 0px;
   /* border: 1px solid black;  */
 }
 
 body{
-  background: #0000002c;
+  background: rgba(176, 214, 248, 0.671);
+}
+
+.logo{
+  max-width:140px ;
+  max-height :50px ;
+}
+
+.about-img,.fimg,#hero-img{
+  max-width: 250px ;
+  max-height:250px ;
 }
 
 .flex{
@@ -58,7 +68,6 @@ li{
 .hero-sec{
   justify-content: space-around;
   
-  
 }
 
 #hero-article{
@@ -72,11 +81,15 @@ li{
 #hero-start-free{
   width: 17%;
   height: 7vh;
-  margin-left: 20vw;
+  margin-left: 10vw;
   color: antiquewhite;
-
+  padding :2px;
   background-color: rgba(0, 0, 0, 0.692);
-  border-radius: 7px;
+  border-radius: 9px;
+}
+
+#hero-start-free:active{
+  color: rgba(0, 255, 255, 0.39);
 }
 
 .hilights{
@@ -85,7 +98,7 @@ li{
 }
 
 .card{
-  
+  background-color: #0000002c  ;
   min-height:  50vh;
   min-width: 20vw;
   margin-left: 20%;
@@ -93,7 +106,7 @@ li{
 }
 
 .square{
-  
+  background: #0000002c;
   min-width : 30vh;
   min-height: 30vh;
 }
@@ -106,6 +119,8 @@ li{
 .text{
   max-width: 35vw;
   text-wrap: wrap;
+  text-align: center;
+  background-color: #0000002c;
 }
 
 .Footer_Nav{
@@ -124,3 +139,18 @@ li{
   list-style-position: inside;
   list-style:circle;
 }
+
+#f-box{
+    max-width:100vw ;
+    border-width:2px 0px 0px 0px;
+    border-color: black;
+    border-style: double;
+    background-color:rgba(176, 215, 248, 0.308) ;
+}
+
+a:active{
+  color: rgb(0, 255, 255);
+}
+
+
+/* #0000002c */

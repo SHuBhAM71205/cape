@@ -1,4 +1,4 @@
-import image1 from './1.jpg';
+import image1 from './image/Asset 9@4x.png';
 
 export default function About(){
     return(
@@ -12,7 +12,7 @@ export default function About(){
                         </article>
                 </div>
                 <div>
-                    <img src={image1} alt="img not found"/>    
+                    <img src={image1} alt="img not found" className='about-img'/>    
                 </div>
             </div>
         </>
