@@ -1,4 +1,4 @@
-import logo from "./logo.jpg"
+import logo from "./1.jpg"
 
 export default function Navigation(){
     return(

@@ -10,7 +10,10 @@ import FooterNav from './component/FooterNav';
 function App() {
   return (
     <>
-      <header className="flex head"><Navigation/></header>
+      <header className="flex head">
+        <Navigation/>
+      </header>
+      
       <main>
         <HeroSection/>
         <Highlight/>
