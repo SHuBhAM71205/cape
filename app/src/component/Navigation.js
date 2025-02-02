@@ -1,5 +1,5 @@
 import logo from "./image/Asset 14@4x.png"
-import  {Link, NavLink} from "react-router-dom";
+import  {Link} from "react-router-dom";
 
 
 export default function Navigation(){
