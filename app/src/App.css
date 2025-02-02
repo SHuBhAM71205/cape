@@ -154,3 +154,24 @@ a:active{
 
 
 /* #0000002c */
+
+
+.BookTable{
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.Table{
+  border: 2px solid rgba(0, 0, 0, 0.404);
+  min-height: 49vh;
+  min-width: 40vw;
+  background-color: #0000002c;
+}
+
+.Tableform{
+
+}
+
+.conform{
+
+}
