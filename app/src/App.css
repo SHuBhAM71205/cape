@@ -157,7 +157,13 @@ a:active{
 
 
 .BookTable{
-  margin-top: 20px;
+  margin-top: 15vh;
+  flex-direction: row;
+}
+
+.BookTable >form {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -168,10 +174,9 @@ a:active{
   background-color: #0000002c;
 }
 
-.Tableform{
 
+.preview{
+  
 }
 
-.conform{
 
-}
